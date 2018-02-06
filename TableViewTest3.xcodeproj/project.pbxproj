@@ -14,6 +14,8 @@
 		E12F84922029437500023D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12F84902029437500023D54 /* LaunchScreen.storyboard */; };
 		E12F849D2029437500023D54 /* TableViewTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F849C2029437500023D54 /* TableViewTest3Tests.swift */; };
 		E12F84A82029437500023D54 /* TableViewTest3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F84A72029437500023D54 /* TableViewTest3UITests.swift */; };
+		E12F84B62029439400023D54 /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F84B52029439400023D54 /* NameAndColorCell.swift */; };
+		E12F84B82029452300023D54 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12F84B72029452300023D54 /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E12F84A32029437500023D54 /* TableViewTest3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTest3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12F84A72029437500023D54 /* TableViewTest3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTest3UITests.swift; sourceTree = "<group>"; };
 		E12F84A92029437500023D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12F84B52029439400023D54 /* NameAndColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		E12F84B72029452300023D54 /* NameAndColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E12F848E2029437500023D54 /* Assets.xcassets */,
 				E12F84902029437500023D54 /* LaunchScreen.storyboard */,
 				E12F84932029437500023D54 /* Info.plist */,
+				E12F84B52029439400023D54 /* NameAndColorCell.swift */,
+				E12F84B72029452300023D54 /* NameAndColorCell.xib */,
 			);
 			path = TableViewTest3;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12F84B82029452300023D54 /* NameAndColorCell.xib in Resources */,
 				E12F84922029437500023D54 /* LaunchScreen.storyboard in Resources */,
 				E12F848F2029437500023D54 /* Assets.xcassets in Resources */,
 				E12F848D2029437500023D54 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12F84B62029439400023D54 /* NameAndColorCell.swift in Sources */,
 				E12F848A2029437500023D54 /* ViewController.swift in Sources */,
 				E12F84882029437500023D54 /* AppDelegate.swift in Sources */,
 			);
